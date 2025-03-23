@@ -8,5 +8,5 @@ export default defineConfig({
     react(),
     tailwindcss()
   ],
-  base: "/Egg-Boiler"
+  base: "/egg-boiler"
 })
