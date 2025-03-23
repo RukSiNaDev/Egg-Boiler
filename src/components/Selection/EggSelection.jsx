@@ -2,9 +2,9 @@ import EggCard from "../EggCard/EggCard";
 
 const EggSelection = ({ onSelect }) => {
   const eggs = [
-    { image: "./assets/soft-egg.gif", label: "Soft Boiled" , time: 300},
-    { image: "./assets/midium-egg.gif", label: "Medium Boiled", time: 600 },
-    { image: "./assets/well-done.gif", label: "Hard Boiled", time: 720 }
+    { image: "/assets/soft-egg.gif", label: "Soft Boiled" , time: 300},
+    { image: "/assets/midium-egg.gif", label: "Medium Boiled", time: 600 },
+    { image: "/assets/well-done.gif", label: "Hard Boiled", time: 720 }
   ];
 
   return (
