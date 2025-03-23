@@ -1,6 +1,6 @@
 import { useState } from "react";
-import EggSelection from "./components/Selection/EggSelection";
-import Timer from "./components/Timer/Timer";
+import EggSelection from "./components/Selection/EggSelection.jsx";
+import Timer from "./components/Timer/Timer.jsx";
 
 function App() {
   const [selectedEgg, setSelectedEgg] = useState(null);
