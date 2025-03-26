@@ -1,7 +1,8 @@
 # 🥚 Egg Timer Web App
 🚀 A fun and simple web app to help you boil eggs perfectly every time!
 
-# [DEMO](https://ruksinadev.github.io/egg-boiler/)
+# 🎮 Live Demo
+👉 [DEMO](https://ruksinadev.github.io/egg-boiler/)
 
 # 🌟 Features
 ✅ Select from Soft Boiled, Medium Boiled, or Hard Boiled eggs<br>
