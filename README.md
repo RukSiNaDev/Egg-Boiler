@@ -13,7 +13,7 @@
 # 🛠 Tech Stack
 🟢 Frontend: React (with Vite)<br>
 🎨 Styling: Tailwind CSS<br>
-⚡ State Management: React Hooks (useState, useEffect, useNavigate)<br>
+⚡ State Management: React Hooks (useState and useEffect)<br>
 📲 PWA Support: Workbox, Service Workers, Manifest.json<br>
 🚀 Deployment: GitHub Pages
 
