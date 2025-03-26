@@ -1,54 +1,62 @@
-# React + TypeScript + Vite
+🥚 Overview
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a simple and fun Egg Timer Web App that helps you boil eggs to your desired doneness level. Select your preferred egg type, start the timer, and get notified when it's ready!
 
-Currently, two official plugins are available:
+🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Choose from Soft Boiled, Medium Boiled, or Hard Boiled eggs.
 
-## Expanding the ESLint configuration
+Animated egg GIFs for a visually appealing experience.
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+Countdown timer with a progress indicator.
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+Responsive UI for mobile and desktop.
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+Tailwind CSS for modern styling.
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+React Router for seamless navigation.
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+Modal notification when the timer finishes.
+
+Supports Progressive Web App (PWA) for offline usage.
+
+🛠️ Tech Stack
+
+Frontend: React (with Vite)
+
+Styling: Tailwind CSS
+
+Routing: React Router
+
+State Management: React Hooks (useState, useEffect, useNavigate)
+
+PWA Support: Workbox, Service Workers, Manifest.json
+
+Deployment: GitHub Pages (Free Hosting)
+
+📦 Installation
+
+1️⃣ Clone the repository
+
+git clone https://github.com/your-username/egg-timer.git
+cd egg-timer
+
+2️⃣ Install dependencies
+
+npm install
+
+3️⃣ Run the project
+
+npm run dev
+
+🎯 Usage
+
+Open the web app.
+
+Select your preferred egg doneness level.
+
+The app navigates to the timer page and starts counting down.
+
+A modal popup will notify you when the egg is ready.
+
+Click OK to return to the home screen.

@@ -1,0 +1,8 @@
+{
+  "name": "egg-boiler",
+  "short_name": "Egg Boiler",
+  "start_url": "/egg-boiler/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#facc15"
+}
